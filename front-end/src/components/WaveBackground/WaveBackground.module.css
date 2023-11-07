@@ -4,8 +4,7 @@
     left: 0;
     width: 100vw;
     height: 250px;
-    background: #008030
-    ; /* Puedes ajustar el color de fondo según tu preferencia */
+    background: #008030;
     z-index: -1;
     clip-path: polygon(
     0% 50%,

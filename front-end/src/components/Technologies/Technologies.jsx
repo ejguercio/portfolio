@@ -3,7 +3,7 @@ import css from "./Technologies.module.css"
 
 const Technologies = () => {
   return (
-    <section className={css.technologies}>
+    <section id="technologies" className={css.technologies}>
       <div className={css.container}>
         <h2>Tecnologías que utilizo</h2>
         
