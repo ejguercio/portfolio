@@ -3,9 +3,8 @@
     bottom: 0;
     left: 0;
     width: 100vw;
-    height: 250px;
+    height: 200px;
     background: #008030;
-    z-index: -1;
     clip-path: polygon(
     0% 50%,
     10% 45%,

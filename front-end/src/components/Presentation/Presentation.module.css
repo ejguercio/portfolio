@@ -1,4 +1,9 @@
+.presentation {
+  padding: 20px;
+  border-radius: 5px;
+}
+
 .container {
-    text-align: center;
-    padding: 50px 0;
-  }
+  font-size: 2rem;
+  padding: 0px 10px;
+}
