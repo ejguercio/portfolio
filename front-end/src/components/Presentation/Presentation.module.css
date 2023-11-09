@@ -14,6 +14,7 @@
 
 .info{
   min-height: 380px;
+  max-width: 600px;
 }
 .info box-icon{
   width: 100%;

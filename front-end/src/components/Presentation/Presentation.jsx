@@ -6,7 +6,7 @@ const Presentation = () => {
     <section id= "presentation" className={css.presentation}>
       <div className={css.container}>
         <div className={css.info}>
-        <box-icon name='code-block' animation='flashing' color='#ffffff' ></box-icon>
+          <box-icon name='code-block' animation='fade-up' color='#ffffff' ></box-icon>
         </div>
         <div className={css.info}>
           <h2>¡Hola! Soy Edgar Guercio</h2>
