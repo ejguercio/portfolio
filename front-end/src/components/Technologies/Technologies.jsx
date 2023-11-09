@@ -7,10 +7,10 @@ const Technologies = () => {
       <h2 className={css.title}>Tecnologias que utilizo</h2>
       <div className={css.grid}>
         <div className={css.card}>
-          <box-icon type='logo' name='html5'></box-icon>
+          <box-icon type='logo' animation='tada' name='html5'></box-icon>
         </div>
         <div className={css.card}>
-          <box-icon name='css3' type='logo' ></box-icon>
+          <box-icon name='css3' type='logo' animation='tada' ></box-icon>
         </div>
         <div className={css.card}>
           <box-icon name='javascript' type='logo' animation='tada' ></box-icon>
