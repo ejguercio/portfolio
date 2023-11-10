@@ -24,6 +24,15 @@ const Technologies = () => {
         <div className={css.card}>
           <box-icon name='postgresql' type='logo' animation='tada' color="#336791"></box-icon>
         </div>
+        <div className={css.card}>
+          <box-icon name='redux' type='logo' animation='tada' color="	#764abc" ></box-icon>
+        </div>
+        <div className={css.card}>
+          <box-icon name='docker' type='logo' animation='tada' color="#0db7ed"></box-icon>
+        </div>
+        <div className={css.card}>
+          <box-icon name='mongodb' type='logo' animation='tada' color="#3FA037" ></box-icon>
+        </div>
       </div>
     </section>
   );
