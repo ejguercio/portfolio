@@ -1,13 +1,18 @@
-import React from 'react';
 import css from "./Contact.module.css"
 
 const Contact = () => {
     return (
-      <section id="contact" className={css.container}> {/* Aplica la clase del módulo de CSS */}
+      <section id="contact" className={css.container}> 
         <div className={css.container}>
-          <h2>Contacto</h2>
-          <p>Para ponerse en contacto conmigo, envíame un correo electrónico a: <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
-          <p>Puedes encontrarme en LinkedIn: <a href="https://www.linkedin.com/in/tu-usuario/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+          <h2 className={css.title}>Contacto</h2>
+            <box-icon name='mail-send' color='#ffffff' />
+          <span>Esribime: <a href="mailto:ejguercio@gmail.com">ejguercio@gmail.com</a></span>
+            <box-icon name='phone-call' type='solid' color='#ffffff'/>
+          <span>Lamame: <a href="https://wa.me/+543534115272">+543535272</a></span>
+          <box-icon name='linkedin-square' type='logo' color='#ffffff' />
+          <span>Conecta <a href="https://www.linkedin.com/in/ejguercio/" target="_blank" rel="noopener noreferrer">LinkedIn</a></span>
+          <box-icon name='github' type='logo' color='#ffffff' />
+          <span>Seguime <a href="https://www.linkedin.com/in/ejguercio/" target="_blank" rel="noopener noreferrer">GitHub</a></span>
         </div>
       </section>
     );
