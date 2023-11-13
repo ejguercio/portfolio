@@ -1,0 +1,22 @@
+import css from "../Projects.module.css"
+
+const Ide=()=>{
+    return(
+        <div className={css.card}>
+            <div className={css.cardVideo}>
+                <iframe src="https://www.youtube.com/embed/BlPkojy671Q?si=ql8c8FZhV1N42bTM" width="640" height="360" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            <div className={css.cardInfo}>
+                <h3 className={css.title}>Ide Pinturería E-commerce</h3>
+                <p className={css.description}>Ecommerce que facilita la compra/venta de productos, cuenta con dashboard de cliente con funciones tipicas y un dashboard de admin con funciones mas avanzadas para facilitar la administracion y muchas cosas mas.</p>
+                <div className={css.cardButtons}>
+                    <button>Deploy</button>
+                    <button>Repositorio</button>
+                </div>
+            </div>
+        </div>
+
+    )
+}
+
+export default Ide;
