@@ -1,5 +1,4 @@
 .section{
-  display: flex;
   flex-direction: column;
 }
 
@@ -30,7 +29,7 @@
 .container span{
   display: block;
   font-size: 20px;
-  margin: 12px;
+  margin: 12px 0px;
 }
 
 .container box-icon{

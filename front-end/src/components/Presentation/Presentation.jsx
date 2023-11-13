@@ -1,6 +1,5 @@
-import React from 'react';
 import css from "./Presentation.module.css"
-import imagen from "../../assets/presentation.png"
+
 const Presentation = () => {
   return (
     <section id= "presentation" className={css.presentation}>
