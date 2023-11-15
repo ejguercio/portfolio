@@ -1,4 +1,5 @@
 import Dogs from "./Dogs/Dogs"
+import Futuguer from "./Futuguer/Futuguer"
 import Ide from "./Ide/Ide"
 import css from "./Projects.module.css"
 
@@ -11,6 +12,7 @@ return (
     <div className={css.container}>
         <Ide/>
         <Dogs/>
+        <Futuguer/>
     </div>
 </section>
 )
