@@ -8,10 +8,12 @@ const Ide=()=>{
                 </div>
             <div className={css.cardInfo}>
                 <h3 className={css.title}>Ide Pinturería E-commerce</h3>
-                <p className={css.description}>Ecommerce que facilita la compra/venta de productos, cuenta con dashboard de cliente con funciones tipicas y un dashboard de admin con funciones mas avanzadas para facilitar la administracion y muchas cosas mas.</p>
+                <p className={css.description}>Ecommerce que facilita la compra/venta de productos, cuenta con dashboard de cliente con funciones típicas y un dashboard de administrador con funciones más avanzadas para facilitar la administración y muchas cosas más.</p>
                 <div className={css.cardButtons}>
                     <button>Deploy</button>
+                    <a href="https://github.com/PF-Ide-Pintureria" target="_blank" rel="noopener noreferrer">
                     <button>Repositorio</button>
+                    </a>
                 </div>
             </div>
         </div>

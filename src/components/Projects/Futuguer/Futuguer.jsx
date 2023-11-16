@@ -12,8 +12,12 @@ const Futuguer = ()=>{
                 <h3 className={css.title}>Futuguer SRL</h3>
                 <p className={css.description}>Página institucional hecha con puro HTML y CSS donde hay información de la empresa, diferentes modos de contacto y una galería de imágenes con algunos de sus trabajos realizados.</p>
                 <div className={css.cardButtons}>
-                    <a href="https://futuguer.online/index.html" target="_blank" rel="noopener noreferrer"><button>Deploy</button></a>
-                    <a href="https://github.com/ejguercio/FUTUGUER" target="_blank" rel="noopener noreferrer"><button>Repositorio</button></a>
+                    <a href="https://futuguer.online/index.html" target="_blank" rel="noopener noreferrer">
+                    <button>Deploy</button>
+                    </a>
+                    <a href="https://github.com/ejguercio/FUTUGUER" target="_blank" rel="noopener noreferrer">
+                    <button>Repositorio</button>
+                    </a>
                 </div>
             </div>
         </div>
