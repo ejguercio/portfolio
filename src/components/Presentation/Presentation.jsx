@@ -4,7 +4,7 @@ const Presentation = () => {
   return (
     <section id= "presentation" className={css.presentation}>
       <div className={css.container}>
-        <div className={css.info}>
+        <div className={css.containerIcon}>
           <box-icon name='code-block' animation='fade-up' color='#ffffff' ></box-icon>
         </div>
         <div className={css.info}>

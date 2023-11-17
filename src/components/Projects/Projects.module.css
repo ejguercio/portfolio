@@ -1,6 +1,9 @@
 .projects{
-    flex-direction: column;
-    font-size: 2rem;
+    flex-direction: column;   
+}
+
+.projects h2{
+    font-size: 3rem;
 }
 
 .card{
@@ -8,8 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .cardInfo{
@@ -17,7 +19,8 @@
 }
 
 .title{
-    margin: 0px;
+    font-size: 2rem;
+    margin: 20px 0px;
     color: #3c873a;
 }
 
@@ -26,6 +29,7 @@
     font-size: 16px;
     max-width: 800px;
 }
+
 .cardButtons button{
     margin: 0px 10px;
     padding: 4px;

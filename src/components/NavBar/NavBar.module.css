@@ -1,10 +1,9 @@
 .navbar {
     background-color:#242424 ;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     top: 0;
     z-index: 10;
-    min-width: 100%;
   }
   
   .container {
@@ -28,5 +27,12 @@
     color: white;
     font-weight: bold;
   }
+
+  @media only screen and (max-width: 600px) {
+    .navbar ul li {
+      margin: 0px 5px;
+    }
+  }
+
   
   

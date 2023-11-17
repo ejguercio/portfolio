@@ -15,7 +15,11 @@
   min-height: 380px;
   max-width: 600px;
 }
-.info box-icon{
+.containerIcon{
+  width: 50%;
+  height: auto;
+}
+.containerIcon box-icon{
   width: 100%;
   height: 380px;
 }
@@ -24,10 +28,12 @@
 @media only screen and (max-width: 768px) {
   .container {
     flex-direction: column;
+    width: 95%;
   }
 
-  .info box-icon{
+  .containerIcon box-icon{
     width: 90%;
+    height: 100px;
   }
 
   .info h2{
