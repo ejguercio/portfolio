@@ -27,6 +27,9 @@
     color: white;
     font-weight: bold;
   }
+  .navbar ul li a:hover{
+    color: #3c873a;
+  }
 
   @media only screen and (max-width: 600px) {
     .navbar ul li {

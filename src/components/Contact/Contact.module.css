@@ -40,9 +40,18 @@
   width: 60px;
 }
 
+.container a:hover {
+  color: #3c873a;
+}
+
 @media only screen and (max-width: 768px) {
   .container{
     width: 90%;
     justify-content: center;
+  }
+  @media only screen and (max-width: 380px) {
+    .container span{
+      font-size: 18px;
+    }
   }
 }
