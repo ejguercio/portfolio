@@ -2,7 +2,7 @@ import css from "./Contact.module.css"
 
 const Contact = () => {
     return (
-      <section id="contact" className={css.section} > 
+      <section id="contact" className={css.contact} > 
           <h2 className={css.title}>Contacto</h2>
         <div className={css.container}>
           <div>
