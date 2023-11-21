@@ -11,7 +11,7 @@ const Presentation = () => {
           <h2>¡Hola! Soy Edgar Guercio</h2>
           <span>Desarrollador apasionado por la tecnología y la programación.   
           </span>
-          <span>¡Bienvenido a mi portafolio!</span>
+          <span>¡Echa un vistazo a mi portafolio!</span>
         </div>
       </div>
     </section>
