@@ -12,10 +12,12 @@ const Todo = ()=>{
                 <h3 className={css.title}>To-do List</h3>
                 <p className={css.description}>Esta es una tipica lista de tareas que incluye operaciones CRUD (Crear, Leer, Actualizar, Eliminar) y la idea fue hacerlo con PERN STACK (Postgres, Express, React, Node.js) pero sin depender de Redux, Axios o Sequelize</p>
                 <div className={css.cardButtons}>
-                    <button>Deploy</button>
-                        <a href="https://github.com/ejguercio/to-do" target="_blank" rel="noopener noreferrer">
+                    <a href="https://to-do-one-gold.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <button>Deploy</button>
+                    </a>
+                    <a href="https://github.com/ejguercio/to-do" target="_blank" rel="noopener noreferrer">
                         <button>Repositorio</button>
-                        </a>
+                    </a>
                 </div>
             </div>
         </div>
