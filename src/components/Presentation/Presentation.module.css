@@ -14,6 +14,7 @@
 .info{
   min-height: 380px;
   max-width: 600px;
+  text-shadow: 3px 3px 4px rgba(0,0,0,0.2);
 }
 .containerIcon{
   width: 50%;

@@ -4,6 +4,7 @@
 
 .projects h2{
     font-size: 3rem;
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.2);
 }
 
 .card{
@@ -22,12 +23,16 @@
     font-size: 2rem;
     margin: 20px 0px;
     color: #3c873a;
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.3);
 }
 
 .description{
     margin: 12px 0px;
     font-size: 16px;
     max-width: 800px;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    letter-spacing: 0.04em;
 }
 
 .cardButtons button{
