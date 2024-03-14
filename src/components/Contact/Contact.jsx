@@ -17,8 +17,7 @@ const Contact = () => {
           </div>
           <div>
             <a  href="https://wa.me/+543534115272" target="_blank" rel="noopener noreferrer">
-              <box-icon name='phone-call' type='solid' color='#ffffff'/>
-              <span>+543534115272</span>
+            <box-icon name='whatsapp' type='logo' color='#ffffff'/>              <span>+543534115272</span>
             </a>
             <a href="https://github.com/ejguercio" target="_blank" rel="noopener noreferrer">
               <box-icon name='github' type='logo' color='#ffffff' />
