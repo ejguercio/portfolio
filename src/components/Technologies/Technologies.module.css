@@ -1,42 +1,41 @@
 .technologies {
-    flex-direction: column;
-  }
+  flex-direction: column;
+}
 
-  .title{
-    font-size: 3rem;
-    text-shadow: 3px 3px 4px rgba(0,0,0,0.2);
-  }
-  
+.title {
+  font-size: 3rem;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Tres columnas con igual anchura */
+  gap: 20px; /* Espacio entre las tarjetas */
+}
+
+.card {
+  min-height: 150px; /* Altura mínima de la tarjeta */
+  min-width: 150px; /* Ancho mínimo de la tarjeta */
+  border: 1px solid #3c873a;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin: 0;
+  padding: 10px;
+}
+.card box-icon {
+  width: 60%;
+  height: 60%;
+}
+
+@media only screen and (max-width: 768px) {
   .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /* Tres columnas con igual anchura */
-    gap: 20px; /* Espacio entre las tarjetas */
+    grid-template-columns: 1fr 1fr;
   }
-  
-  .card {
-    min-height: 150px; /* Altura mínima de la tarjeta */
-    min-width: 150px; /* Ancho mínimo de la tarjeta */
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  .title {
+    padding: 0px 10px;
   }
-
-  .card h3{
-    margin: 0;
-    padding: 10px;
-  }
-  .card box-icon{
-    width: 60%;
-    height: 60%;
-  }
-
-  @media only screen and (max-width: 768px) {
-    .grid {
-      grid-template-columns: 1fr 1fr;
-    }
-    .title{
-      padding: 0px 10px;
-    }
-  }
-  
+}

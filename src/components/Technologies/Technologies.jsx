@@ -1,5 +1,5 @@
 import css from './Technologies.module.css';
-
+import BoxIconWithHover from './BoxIconWithHover'; 
 const Technologies = () => {
   return (
     <section id="technologies" className={css.technologies}>
@@ -7,39 +7,39 @@ const Technologies = () => {
       <div className={css.grid}>
         <div className={css.card}>
           <h3>HTML</h3>
-          <box-icon type='logo' animation='tada' name='html5' color="#FF4500	"></box-icon>
+          <BoxIconWithHover type='logo' name='html5' color="#FF4500" />
         </div>
         <div className={css.card}>
           <h3>CSS</h3>
-          <box-icon name='css3' type='logo' animation='tada' color="#2965f1" ></box-icon>
+          <BoxIconWithHover type='logo' name='css3' color="#2965f1" />
         </div>
         <div className={css.card}>
           <h3>Javascript</h3>
-          <box-icon name='javascript' type='logo' animation='tada' color="	#f0db4f" ></box-icon>
+          <BoxIconWithHover type='logo' name='javascript' color="#f0db4f" />
         </div>
         <div className={css.card}>
           <h3>Node.js</h3>
-          <box-icon name='nodejs' type='logo' animation='tada' color="	#3c873a" ></box-icon>
+          <BoxIconWithHover type='logo' name='nodejs' color="#3c873a" />
         </div>
         <div className={css.card}>
           <h3>React</h3>
-          <box-icon name='react' type='logo' animation='tada' color="#00d8ff"></box-icon>
+          <BoxIconWithHover type='logo' name='react' color="#00d8ff" />
         </div>
         <div className={css.card}>
           <h3>PostgreSQL</h3>
-          <box-icon name='postgresql' type='logo' animation='tada' color="#336791"></box-icon>
+          <BoxIconWithHover type='logo' name='postgresql' color="#336791" />
         </div>
         <div className={css.card}>
           <h3>Redux</h3>
-          <box-icon name='redux' type='logo' animation='tada' color="	#764abc" ></box-icon>
+          <BoxIconWithHover type='logo' name='redux' color="#764abc" />
         </div>
         <div className={css.card}>
           <h3>Docker</h3>
-          <box-icon name='docker' type='logo' animation='tada' color="#0db7ed"></box-icon>
+          <BoxIconWithHover type='logo' name='docker' color="#0db7ed" />
         </div>
         <div className={css.card}>
-          <h3>Mongo</h3>
-          <box-icon name='mongodb' type='logo' animation='tada' color="#3FA037" ></box-icon>
+          <h3>MongoDB</h3>
+          <BoxIconWithHover type='logo' name='mongodb' color="#3FA037" />
         </div>
       </div>
     </section>
