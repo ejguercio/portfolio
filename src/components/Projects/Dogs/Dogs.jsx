@@ -11,7 +11,9 @@ const Dogs=()=>{
             <div className={css.cardInfo}>
                 <p className={css.description}>Página donde consumimos <a href="https://www.thedogapi.com/">The Dog API</a> para acceder a una gran cantidad de información sobre distintas razas de perros con la posibilidad también de agregar razas personalizadas a la base de datos.</p>
                 <div className={css.cardButtons}>
-                    <button>Deploy</button>
+                    <a href="https://dogs-piproject.vercel.app/"target="blank" rel="noopener noreferrer">
+                        <button>Deploy</button>
+                    </a>
                     <a href="https://github.com/ejguercio/DOGS" target="blank" rel="noopener noreferrer">
                         <button>Repositorio</button>
                     </a>
