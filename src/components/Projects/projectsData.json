@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "title": "Petgram",
+      "description": "Red social de mascotas donde podras ingresar con una cuenta de google y asi luego crear diversos perfiles de mascotas, hacer publicaciones, comentar y dar like, buscar por nombre, etc.",
+      "linkVideo": "https://www.youtube.com/embed/3X_AMKoyD9I?si=eP1-s0BjrpebPPLu",
+      "linkDeploy": "https://pet-gram.vercel.app/",
+      "linkRepo": "https://github.com/No-Country/c16-67-ft-node"
+    },
+    {
       "title": "Ide Pinturería E-commerce",
       "description": "Ecommerce que facilita la compra/venta de productos, cuenta con dashboard de cliente con funciones típicas y un dashboard de administrador con funciones más avanzadas para facilitar la administración y muchas cosas más.",
       "linkVideo": "https://www.youtube.com/embed/BlPkojy671Q?si=ql8c8FZhV1N42bTM",
