@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "title": "Ide Pinturería E-commerce",
+      "description": "Ecommerce que facilita la compra/venta de productos, cuenta con dashboard de cliente con funciones típicas y un dashboard de administrador con funciones más avanzadas para facilitar la administración y muchas cosas más.",
+      "linkVideo": "https://www.youtube.com/embed/BlPkojy671Q?si=ql8c8FZhV1N42bTM",
+      "linkDeploy": "https://pinturas-app-front-production.up.railway.app/",
+      "linkRepo": "https://github.com/orgs/Ide-Pinturerias/repositories"
+    },
+    {
+      "title": "To-do List",
+      "description": "Esta es una típica lista de tareas que incluye operaciones CRUD (Crear, Leer, Actualizar, Eliminar) y la idea fue hacerlo con PERN STACK (Postgres, Express, React, Node.js) pero sin depender de Redux, Axios o Sequelize.",
+      "linkVideo": "https://player.vimeo.com/video/885042879?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479",
+      "linkDeploy": "https://to-do-one-gold.vercel.app/",
+      "linkRepo": "https://github.com/ejguercio/to-do"
+    },
+    {
+      "title": "Dogs SPA",
+      "description": "Página donde consumimos The Dog API para acceder a una gran cantidad de información sobre distintas razas de perros con la posibilidad también de agregar razas personalizadas a la base de datos.",
+      "linkVideo": "https://player.vimeo.com/video/854832419?h=f8fa799104",
+      "linkDeploy": "https://dogs-piproject.vercel.app/",
+      "linkRepo": "https://github.com/ejguercio/DOGS"
+    },
+    {
+      "title": "Futuguer SRL",
+      "description": "Página institucional hecha con puro HTML y CSS donde hay información de la empresa, diferentes modos de contacto y una galería de imágenes con algunos de sus trabajos realizados.",
+      "linkVideo": "https://player.vimeo.com/video/885010754?h=f0726e40cb",
+      "linkDeploy": "https://futuguer.online/index.html",
+      "linkRepo": "https://github.com/ejguercio/FUTUGUER"
+    }
+  ]
+}
