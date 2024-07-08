@@ -1,9 +1,12 @@
 import css from './Technologies.module.css';
 import BoxIconWithHover from './BoxIconWithHover'; 
+import { Zoom } from 'react-awesome-reveal';
+
 const Technologies = () => {
   return (
     <section id="technologies" className={css.technologies}>
       <h2 className={css.title}>Tecnologías que utilizo</h2>
+      <Zoom>
       <div className={css.grid}>
         <div className={css.card}>
           <h3>HTML</h3>
@@ -42,6 +45,7 @@ const Technologies = () => {
           <BoxIconWithHover type='logo' name='mongodb' color="#3FA037" />
         </div>
       </div>
+    </Zoom>
     </section>
   );
 };

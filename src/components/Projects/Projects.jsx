@@ -1,6 +1,7 @@
 import ProjectCard from "./ProjectCard/ProjectCard";
 import css from "./Projects.module.css";
 import projectsData from "./projectsData.json";
+import { Zoom } from "react-awesome-reveal";
 
 const Projects = () => {
   return (
@@ -8,6 +9,7 @@ const Projects = () => {
       <h2>Proyectos</h2>
       <div className={css.container}>
         {projectsData.projects.map((project) => (
+      <Zoom duration={500} key={project.title}>
           <ProjectCard
             key={project.title}
             title={project.title}
@@ -15,7 +17,8 @@ const Projects = () => {
             linkVideo={project.linkVideo}
             linkDeploy={project.linkDeploy}
             linkRepo={project.linkRepo}
-          />
+            />
+            </Zoom>
         ))}
       </div>
     </section>

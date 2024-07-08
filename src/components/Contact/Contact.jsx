@@ -1,7 +1,9 @@
 import css from "./Contact.module.css"
+import { Zoom } from "react-awesome-reveal";
 
 const Contact = () => {
     return (
+      <Zoom>
       <section id="contact" className={css.contact} > 
           <h2 className={css.title}>Contacto</h2>
         <div className={css.container}>
@@ -26,6 +28,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      </Zoom>
     );
   };
   
