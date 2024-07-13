@@ -9,7 +9,7 @@ const Projects = () => {
       <h2>Proyectos</h2>
       <div className={css.container}>
         {projectsData.projects.map((project) => (
-      <Zoom duration={500} key={project.title}>
+       <Zoom duration={500} key={project.title}>
           <ProjectCard
             key={project.title}
             title={project.title}
@@ -18,7 +18,7 @@ const Projects = () => {
             linkDeploy={project.linkDeploy}
             linkRepo={project.linkRepo}
             />
-            </Zoom>
+        </Zoom>
         ))}
       </div>
     </section>
