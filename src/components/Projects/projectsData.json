@@ -29,6 +29,13 @@
       "linkRepo": "https://github.com/ejguercio/DOGS"
     },
     {
+      "title": "Ecowit",
+      "description": "Página institucional para empresa de control de plagas y sanidad hecha con base en Dimension HTML5 UP",
+      "linkVideo": "https://player.vimeo.com/video/983591609?h=3db792ad5b",
+      "linkDeploy": "https://www.ecowit.com.ar/",
+      "linkRepo": "https://github.com/ejguercio/ecowit-front"
+    },
+    {
       "title": "Futuguer SRL",
       "description": "Página institucional hecha con puro HTML y CSS donde hay información de la empresa, diferentes modos de contacto y una galería de imágenes con algunos de sus trabajos realizados.",
       "linkVideo": "https://player.vimeo.com/video/885010754?h=f0726e40cb",
